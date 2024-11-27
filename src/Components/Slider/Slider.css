@@ -1,0 +1,7 @@
+.slick-prev {
+    left: 20px;
+    z-index: 2;
+}
+.slick-next {
+    right: 20px;
+}

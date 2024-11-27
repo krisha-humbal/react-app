@@ -18,14 +18,16 @@ import React from 'react'
 
 // export default Card
 
-const Card = ({img,heading,date,head}) => {
+const Card = ({img,heading,date,head,pera,link,icon}) => {
     console.log();
     
     return (
         <div className="card">
+         
             <img src={img} alt="" />
             <div className="card-data"><p>{heading}</p><span>{date}</span></div>
-            <div className="card-heading"><h1>{head}</h1></div>
+            <div className="card-heading"><h1>{head}</h1><p>{pera}</p></div>
+            <div className='Link'><a href="">{link}</a><a href="">{icon}</a></div>
         </div>
     )
 }

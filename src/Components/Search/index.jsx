@@ -8,7 +8,7 @@ import NavDropdown from 'react-bootstrap/NavDropdown';
 
 function Searchbar() {
     return(
-        <Form className="d-flex" style={{paddingTop:'50px'}}>
+        <Form className="d-flex" style={{paddingTop:'50px',paddingBottom:"50px"}}>
             <Form.Control
               type="search"
               placeholder="Email Address"
