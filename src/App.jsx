@@ -95,6 +95,7 @@ function App() {
           </div>
           </div>
       </div>
+      
       <Footer/>
       <SimpleSlider />
     </div>
